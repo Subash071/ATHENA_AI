@@ -1,0 +1,112 @@
+[
+  {
+    "run_id": "f68693d8",
+    "timestamp": "2026-07-29 12:55:15",
+    "problem_title": "Scenario 1 \u2014 Laboratory Allocation",
+    "unit_label": "Student",
+    "num_units": 500,
+    "num_resources": 20,
+    "num_timeslots": 6,
+    "decision_mode": "balanced",
+    "winner_strategy": "Greedy First-Fit",
+    "winner_score": 80.25,
+    "all_scores": {
+      "Greedy First-Fit": 80.25,
+      "Priority-Weighted Balanced": 79.03,
+      "Backtracking CSP": 77.8,
+      "A* Heuristic Search": 71.91
+    },
+    "constraint_satisfaction_rate": 100.0,
+    "resource_utilization_pct": 15.151515151515152,
+    "conflicts": 0,
+    "explanation": "Why was \"Greedy First-Fit\" selected?\n\n\"Greedy First-Fit\" was ranked #1 because it achieved the highest overall optimization score of 80.2%, satisfied 100.0% of all Student requests.\nIn detail, this strategy reached 15.2% resource utilization, kept only 0 unresolved conflict(s), scored 83.3% on load balance across resources, served 100.0% of priority-weighted demand, completed in 2.19 ms.\n\nIt outperformed the runner-up, \"Priority-Weighted Balanced\" (79.0%), by 1.2 percentage points \u2014 primarily due to a faster, more efficient search."
+  },
+  {
+    "run_id": "770e1e70",
+    "timestamp": "2026-07-31 07:51:01",
+    "problem_title": "Scenario 1 \u2014 Laboratory Allocation",
+    "unit_label": "Student",
+    "num_units": 500,
+    "num_resources": 20,
+    "num_timeslots": 6,
+    "decision_mode": "balanced",
+    "winner_strategy": "Greedy First-Fit",
+    "winner_score": 80.36,
+    "all_scores": {
+      "Greedy First-Fit": 80.36,
+      "Priority-Weighted Balanced": 79.26,
+      "Backtracking CSP": 78.7,
+      "A* Heuristic Search": 71.91
+    },
+    "constraint_satisfaction_rate": 100.0,
+    "resource_utilization_pct": 15.151515151515152,
+    "conflicts": 0,
+    "explanation": "Why was \"Greedy First-Fit\" selected?\n\n\"Greedy First-Fit\" was ranked #1 because it achieved the highest overall optimization score of 80.4%, satisfied 100.0% of all Student requests.\nIn detail, this strategy reached 15.2% resource utilization, kept only 0 unresolved conflict(s), scored 83.3% on load balance across resources, served 100.0% of priority-weighted demand, completed in 0.62 ms.\n\nIt outperformed the runner-up, \"Priority-Weighted Balanced\" (79.3%), by 1.1 percentage points \u2014 primarily due to a faster, more efficient search."
+  },
+  {
+    "run_id": "6a495aa1",
+    "timestamp": "2026-08-09 21:36:45",
+    "problem_title": "Custom Allocation Problem",
+    "unit_label": "Unit",
+    "num_units": 100,
+    "num_resources": 10,
+    "num_timeslots": 4,
+    "decision_mode": "balanced",
+    "winner_strategy": "Greedy First-Fit",
+    "winner_score": 80.43,
+    "all_scores": {
+      "Greedy First-Fit": 80.43,
+      "Priority-Weighted Balanced": 79.76,
+      "Backtracking CSP": 78.25,
+      "A* Heuristic Search": 72.0
+    },
+    "constraint_satisfaction_rate": 100.0,
+    "resource_utilization_pct": 25.0,
+    "conflicts": 0,
+    "explanation": "Why was \"Greedy First-Fit\" selected?\n\n\"Greedy First-Fit\" was ranked #1 because it achieved the highest overall optimization score of 80.4%, satisfied 100.0% of all Unit requests.\nIn detail, this strategy reached 25.0% resource utilization, kept only 0 unresolved conflict(s), scored 71.7% on load balance across resources, served 100.0% of priority-weighted demand, completed in 0.14 ms.\n\nIt outperformed the runner-up, \"Priority-Weighted Balanced\" (79.8%), by 0.7 percentage points \u2014 primarily due to a faster, more efficient search."
+  },
+  {
+    "run_id": "01a6b3b4",
+    "timestamp": "2026-08-23 22:37:11",
+    "problem_title": "Scenario 1 \u2014 Laboratory Allocation",
+    "unit_label": "Student",
+    "num_units": 500,
+    "num_resources": 20,
+    "num_timeslots": 6,
+    "decision_mode": "balanced",
+    "winner_strategy": "Greedy First-Fit",
+    "winner_score": 80.38,
+    "all_scores": {
+      "Greedy First-Fit": 80.38,
+      "Priority-Weighted Balanced": 79.57,
+      "Backtracking CSP": 76.08,
+      "A* Heuristic Search": 71.91
+    },
+    "constraint_satisfaction_rate": 100.0,
+    "resource_utilization_pct": 15.151515151515152,
+    "conflicts": 0,
+    "explanation": "Why was \"Greedy First-Fit\" selected?\n\n\"Greedy First-Fit\" was ranked #1 because it achieved the highest overall optimization score of 80.4%, satisfied 100.0% of all Student requests.\nIn detail, this strategy reached 15.2% resource utilization, kept only 0 unresolved conflict(s), scored 83.3% on load balance across resources, served 100.0% of priority-weighted demand, completed in 0.47 ms.\n\nIt outperformed the runner-up, \"Priority-Weighted Balanced\" (79.6%), by 0.8 percentage points \u2014 primarily due to a faster, more efficient search."
+  },
+  {
+    "run_id": "f3968ea2",
+    "timestamp": "2026-08-27 20:42:20",
+    "problem_title": "Scenario 1 \u2014 Laboratory Allocation",
+    "unit_label": "Student",
+    "num_units": 500,
+    "num_resources": 20,
+    "num_timeslots": 6,
+    "decision_mode": "balanced",
+    "winner_strategy": "Greedy First-Fit",
+    "winner_score": 80.26,
+    "all_scores": {
+      "Greedy First-Fit": 80.26,
+      "Priority-Weighted Balanced": 79.66,
+      "Backtracking CSP": 76.78,
+      "A* Heuristic Search": 71.91
+    },
+    "constraint_satisfaction_rate": 100.0,
+    "resource_utilization_pct": 15.151515151515152,
+    "conflicts": 0,
+    "explanation": "Why was \"Greedy First-Fit\" selected?\n\n\"Greedy First-Fit\" was ranked #1 because it achieved the highest overall optimization score of 80.3%, satisfied 100.0% of all Student requests.\nIn detail, this strategy reached 15.2% resource utilization, kept only 0 unresolved conflict(s), scored 83.3% on load balance across resources, served 100.0% of priority-weighted demand, completed in 1.49 ms.\n\nIt outperformed the runner-up, \"Priority-Weighted Balanced\" (79.7%), by 0.6 percentage points \u2014 primarily due to a faster, more efficient search."
+  }
+]
